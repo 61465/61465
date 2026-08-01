@@ -1,28 +1,34 @@
-# Hi, I'm Abd Alrahaman Mohamed 👋
+<div align="center">
 
-**Full-Stack Engineer · AI Systems · Applied Security Research**
+<img src="assets/gz-logo.png" alt="GZ" width="140" />
 
-Alexandria, Egypt · Remote-first
+# Abd Alrahaman Mohamed
 
----
+**Full-Stack Engineer  ·  AI Systems  ·  Applied Security Research**
 
-### 🎯 Selected Impact
+Alexandria, Egypt  ·  Remote-first
 
-- 🏆 **Top 16% (325 / 2,076 teams)** on Kaggle *AI Agent Security: Multi-Step Tool Attacks* — verified score **83.745**
-- 🛡️ Reduced WhatsApp ban rate from Meta's 0.5% baseline to **0.1%** (5× improvement) via a 13-layer defense stack in production SaaS
-- 🧠 Achieved **90.6% adversarial containment at 5.9% FPR** on 8,000 seeded sessions — [Ariadne](https://ssrn.com/abstract=6870178) framework (SSRN preprint)
-- 🏥 Delivered hospital-ready radiology AI: **69s per 24-slice CT at 92% confidence** — midcine v3
+</div>
 
 ---
 
-### 📚 Published Research
+![Impact](https://img.shields.io/badge/SELECTED%20IMPACT-D4AF37?style=for-the-badge&labelColor=0d0d0d)
 
-- **[Ariadne: Adaptive, Human-in-the-Loop Defense for AI Agents](https://ssrn.com/abstract=6870178)** · SSRN 6870178 · Jun 2026
-- **[Oblivion Gate: Zero-Trace Fragmentation in Distributed Data Architectures](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6602478)** · SSRN 6602478 · May 2026
+- **Top 16% (325 / 2,076 teams)** on Kaggle *AI Agent Security: Multi-Step Tool Attacks* — verified score **83.745**
+- Reduced WhatsApp ban rate from Meta's 0.5% baseline to **0.1%** (5× improvement) via a 13-layer defense stack in production SaaS
+- **90.6% adversarial containment at 5.9% FPR** on 8,000 seeded sessions — [Ariadne](https://ssrn.com/abstract=6870178) framework (SSRN preprint)
+- Hospital-ready radiology AI: **69s per 24-slice CT at 92% confidence** — midcine v3
 
 ---
 
-### 🔧 Tech Stack
+![Research](https://img.shields.io/badge/PUBLISHED%20RESEARCH-D4AF37?style=for-the-badge&labelColor=0d0d0d)
+
+- **[Ariadne: Adaptive, Human-in-the-Loop Defense for AI Agents](https://ssrn.com/abstract=6870178)**  ·  SSRN 6870178  ·  Jun 2026
+- **[Oblivion Gate: Zero-Trace Fragmentation in Distributed Data Architectures](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6602478)**  ·  SSRN 6602478  ·  May 2026
+
+---
+
+![Stack](https://img.shields.io/badge/TECH%20STACK-D4AF37?style=for-the-badge&labelColor=0d0d0d)
 
 **Languages** · Python · TypeScript · JavaScript · Dart · SQL · LaTeX
 **AI / ML** · PyTorch · Transformers · LoRA · DPO · Ollama · Claude API · MCP · RAG · multi-agent orchestration
@@ -33,15 +39,15 @@ Alexandria, Egypt · Remote-first
 
 ---
 
-### 🌐 Elsewhere
+![Elsewhere](https://img.shields.io/badge/ELSEWHERE-D4AF37?style=for-the-badge&labelColor=0d0d0d)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-abdalrahman--gz-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abdalrahman-gz/)
-[![Kaggle](https://img.shields.io/badge/Kaggle-abdalrahmanmohamed3-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/abdalrahmanmohamed3)
-[![SSRN](https://img.shields.io/badge/SSRN-Author%2011211189-black)](https://ssrn.com/author=11211189)
-[![Email](https://img.shields.io/badge/Email-abdarahman10555%40gmail.com-D14836?logo=gmail&logoColor=white)](mailto:abdarahman10555@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-abdalrahman--gz-D4AF37?style=for-the-badge&labelColor=0d0d0d&logo=linkedin&logoColor=D4AF37)](https://www.linkedin.com/in/abdalrahman-gz/)
+[![Kaggle](https://img.shields.io/badge/Kaggle-abdalrahmanmohamed3-D4AF37?style=for-the-badge&labelColor=0d0d0d&logo=kaggle&logoColor=D4AF37)](https://www.kaggle.com/abdalrahmanmohamed3)
+[![SSRN](https://img.shields.io/badge/SSRN-Author%2011211189-D4AF37?style=for-the-badge&labelColor=0d0d0d)](https://ssrn.com/author=11211189)
+[![Email](https://img.shields.io/badge/Email-abdarahman10555%40gmail.com-D4AF37?style=for-the-badge&labelColor=0d0d0d&logo=gmail&logoColor=D4AF37)](mailto:abdarahman10555@gmail.com)
 
 ---
 
-### 📌 Pinned repositories below ↓
+![Pinned](https://img.shields.io/badge/PINNED%20REPOSITORIES%20BELOW-D4AF37?style=for-the-badge&labelColor=0d0d0d)
 
 *Selected showcases from the ecosystem. Full source code, datasets, and proprietary models remain private for commercial and research reasons.*

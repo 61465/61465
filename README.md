@@ -14,13 +14,33 @@ Alexandria, Egypt  ·  Remote-first
 
 ![Impact](https://img.shields.io/badge/OCTOBER%202026%20HIGHLIGHTS-D4AF37?style=for-the-badge&labelColor=0d0d0d)
 
-- 🏆 Formalized **APDS — Asymmetric Patch Detection for Symmetric APIs** (new vulnerability-discovery methodology). First application: an un-patched symmetric sibling of CVE-2024-40658, **byte-identical across 6 AOSP branches for 25 months**. Submitted to Google ASR (**CVSS 10.0 Critical** · in panel review).
-- 🛠️ Open-sourced the reference implementation at **[github.com/61465/apds-hunt](https://github.com/61465/apds-hunt)** within 24 h of submission (90-day SLA).
-- ✅ **PostHog PR #5083 merged** (opt-in WebView bot detection, 11 days end-to-end).
-- 🚀 **PostHog PR #5244 open** — ported upstream rrweb #1652 to fix a 9–10 s session-replay freeze on 13 k-node mounts (`MutationBuffer.processBufferedMutations` O(n²) → O(n)).
-- 🚀 **Supabase storage PR #1488 open** — auto-select URL-signing JWK from `JWT_JWKS` (closes `#629`, open 607 days). 25 new tests including a JOSE round-trip proof.
-- 🚀 **Supabase storage PR #1439 open** — UTF-8 object-key hardening + NFC normalization + lone-surrogate rejection.
-- 📝 **Trigger.dev GHSA-65rr-73jq-6qhf accepted** (CVSS 9.6). **Documenso GHSA-2rp7-mrh6-v9m2 in triage** (CVSS 7.6, first-ever GHSA on the repo).
+**10 OSS organisations with active public standing · 2 PRs merged · 2 security advisories accepted**
+
+🏆 Formalized **APDS — Asymmetric Patch Detection for Symmetric APIs** (new vulnerability-discovery methodology). First application: an un-patched symmetric sibling of CVE-2024-40658, **byte-identical across 6 AOSP branches for 25 months**. Submitted to Google ASR (**CVSS 10.0 Critical** · in panel review). Reference implementation open-sourced at **[apds-hunt](https://github.com/61465/apds-hunt)** within 24 h of submission.
+
+**Merged this cycle**
+- ✅ **PostHog #5083** — opt-in WebView bot detection
+- ✅ **Supabase storage #1500** — TUS `X-Supabase-Object-Id` response header (merged by @ferhatelmas)
+
+**Open PRs across the stack**
+- 🔧 **Drizzle ORM #6497** — `useLiveQuery` on `expo-sqlite` now subscribes to joined tables (new `SQLiteRelationalQuery.getReferencedTables()`, cycle-guarded)
+- 🔧 **Sentry-JS #25348** — Nuxt pages-router client-plugin unit tests (5 code paths × 13 cases, pre-blessed by MEMBER @JPeer264)
+- 🔧 **SvelteKit #17432** — `adapter-cloudflare` swaps the Cloudflare platform proxy in place when `wrangler.toml` changes (Vercel bot: *"the bug is fixed"*)
+- 🔧 **Sentry Relay #6508** — derived trace context prefers the DSC `trace_id` (84/84 local tests)
+- 🔧 **Inngest #5004** — single shared TracerProvider via `BatchSpanProcessor`, stops a per-run `OtelTracerProvider` leak
+- 🔧 **Supabase storage #1488** — auto-select URL-signing JWK from `JWT_JWKS`
+- 🔧 **Supabase storage #1499** — magic-byte MIME validator, 61 tests + 2 security-review iterations with `depthfirst-app`
+- 🔧 **Supabase auth #2863** — preserve OAuth 2.1 client sessions during MFA step-up
+- 🔧 **PostHog #5244** — rrweb `MutationBuffer.processBufferedMutations` O(n²) → O(n), 500-row shadow-DOM regression
+
+**Design proposals accepted-for-review**
+- 📝 **Prisma ORM #20678** (v7 maintenance line) — ALS-based transparent transaction propagation for `$extends`, 8-case failure matrix
+- 📝 **Node.js core #55422** (v22.x / v24.x LTS) — LTS-only fix for `Buffer.copy` silent corruption past 4 GiB
+- 📝 **Nitro #4471** (v3 line) — conditions-aware `externals.ts` resolve so `@sentry/tanstackstart-react` doesn't crash the Rollup graph
+
+**Security advisories**
+- 📝 **Trigger.dev GHSA-65rr-73jq-6qhf accepted** (CVSS 9.6)
+- 📝 **Documenso GHSA-2rp7-mrh6-v9m2 in triage** (CVSS 7.6, first-ever GHSA on the repo)
 
 ---
 

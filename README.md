@@ -16,7 +16,7 @@ Alexandria, Egypt  ·  Remote-first
 
 **13 OSS organisations with active public standing · 4 PRs merged · 7 security advisories submitted (6 nOAuth-class across identity vendors, 1 Trigger.dev earlier)**
 
-🏆 Formalized **PTB — Provider Trust Boundary** as a measurement framework for OIDC consumer libraries, grounded in a six-vendor sweep over eight days (Supabase, Hanko, Documenso, Auth.js, Keycloak, Casdoor). Four accepted or in-triage GitHub Security Advisories (two at CVSS 9.8). Public methodology, scanner, fix-pattern library at **[ptb-report-card](https://github.com/61465/ptb-report-card)** + **[identity-trust-hunt](https://github.com/61465/identity-trust-hunt)**.
+🏆 Formalized **PTB — Provider Trust Boundary** as a measurement framework for OIDC consumer libraries, grounded in a six-vendor sweep over eight days (Supabase, Hanko, Documenso, Auth.js, Keycloak, Casdoor). Four GitHub Security Advisories in triage (two at CVSS 9.8 confirmed in the GHSA record). Public methodology, scanner, fix-pattern library at **[ptb-report-card](https://github.com/61465/ptb-report-card)** + **[identity-trust-hunt](https://github.com/61465/identity-trust-hunt)**.
 
 🏆 Earlier this month: formalized **APDS — Asymmetric Patch Detection for Symmetric APIs** (vulnerability-discovery methodology). First application: un-patched symmetric sibling of CVE-2024-40658, byte-identical across 6 AOSP branches for 25 months. Submitted to Google ASR (**CVSS 10.0 Critical** · in panel review). Reference tool at **[apds-hunt](https://github.com/61465/apds-hunt)**.
 
@@ -45,13 +45,13 @@ Alexandria, Egypt  ·  Remote-first
 **Security advisories**
 
 - 📝 **Six-vendor nOAuth / PTB sweep (2026-10-14 → 2026-10-21)**:
-  - `GHSA-ffp4-94w6-vfgv` · Supabase · CVSS 9.8 · **accepted**
-  - `GHSA-2gvh-5vh3-m2rp` · Hanko · CVSS 9.8 · **accepted**
+  - `GHSA-ffp4-94w6-vfgv` · Supabase · CVSS 9.8 (record) · in triage
+  - `GHSA-2gvh-5vh3-m2rp` · Hanko · CVSS 9.8 (record) · in triage
   - `GHSA-hm26-jm32-3wp4` · Documenso · Critical · in triage
   - `GHSA-x3fc-mfpw-93f6` · Auth.js · High · in triage
   - Keycloak · CVSS 9.4 · vendor-email channel, Response Team acknowledged
   - Casdoor · CVSS 9.4 / 8.0 · vendor-email channel, filed
-- 📝 **Trigger.dev `GHSA-65rr-73jq-6qhf`** · CVSS 9.6 · accepted
+- 📝 **Trigger.dev `GHSA-65rr-73jq-6qhf`** · CVSS 9.6 · in triage
 - 📝 **Documenso `GHSA-2rp7-mrh6-v9m2`** · CVSS 7.6 · in triage (first-ever GHSA on the repo, earlier singleton)
 
 ---

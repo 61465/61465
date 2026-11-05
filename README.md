@@ -12,6 +12,18 @@ Alexandria, Egypt  ·  Remote-first
 
 ---
 
+![Available](https://img.shields.io/badge/AVAILABLE%20FOR%20CONSULTING%20%E2%80%94%20Q4%202026%20/%20Q1%202027-00C853?style=for-the-badge&labelColor=0d0d0d)
+
+**Short engagements open.** Startups get flat-rate pricing; enterprises in crisis get same-week availability. Email `abdarahman10555@gmail.com` with your repo + symptom + timeline. Full menu → [AVAILABLE_FOR_WORK.md](AVAILABLE_FOR_WORK.md)
+
+- 🚑 **Crisis response** (same-week) — post-CVE, post-breach, dependency blocker
+- 🔐 **Identity Integration Audit** — OAuth/OIDC/SSO/FedCM against the PTB class
+- ⚡ **Performance Hunt** — O(n²) finds, success-based pricing
+- 💰 **LLM Cost Audit** — HSTC methodology, 49–57% input-token reduction demo-ready
+- 🔧 **OSS Rescue PR** — upstream bug blocking you? I open + chaperone to merge
+
+---
+
 ![Impact](https://img.shields.io/badge/OCTOBER%202026%20HIGHLIGHTS-D4AF37?style=for-the-badge&labelColor=0d0d0d)
 
 **13 OSS organisations with active public standing · 4 PRs merged · 7 security advisories submitted (6 nOAuth-class across identity vendors, 1 Trigger.dev earlier)**
